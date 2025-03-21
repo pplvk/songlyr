@@ -1,0 +1,100 @@
+header {
+    border-bottom: 1px;
+    border-color: rgb(94, 94, 94);
+    border-style: solid;
+
+    margin-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(8, 8, 8);
+    position: sticky;
+    top: 0;
+}
+
+header .site {
+    font-family: Emblema One;
+    font-size: 30px;
+    border: 0px;
+    border-color: rgb(94, 94, 94);
+    border-style: solid;
+
+    padding: 5px;
+
+    color: white;
+    float: left;
+    text-decoration: none;
+}
+
+
+
+header .button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    font-family: Montserrat;
+    margin: 5px;
+    float: right;
+    margin-top: 0px;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    font-family: Montserrat;
+    margin: 5px;
+
+    margin-top: 0px;
+}
+
+header input {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 20px;
+    cursor: auto;
+    border-radius: 12px;
+    border: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    font-family: Montserrat;
+    margin: 5px;
+    margin-top: 0px;
+
+}
+
+
+header form {
+    display: flex;
+    align-self: center;
+
+}

@@ -1,0 +1,46 @@
+.songname {
+    background-color: rgba(33, 35, 37, 0);
+    color: white;
+
+
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+
+
+    font-family: Montserrat;
+
+    margin: 10px
+}
+
+.origvideo {
+    font-family: Montserrat;
+    font-size: 15px;
+    color: brown;
+    text-decoration-color: brown;
+
+}
+
+.headlyr {
+    border-bottom: 1px;
+    border-color: rgb(94, 94, 94);
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(20, 20, 20);
+
+}
+
+.albumcov {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 140px;
+    margin-top: 10px;
+    margin-bottom: 135px;
+}
