@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">> 
+
+    <head>
+            <title>Songlyr</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Lyrics">
+        <meta name="keywords" content="lyrics, songs, music">
+        <meta name="author" content="Songlyr.com">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
+            <div class="containerlog">
+                <div class="register">
+                    <span class="sitelog"><h1> Songlyr</h1></span>
+                        <h1>Sign up</h1>
+                            <!--name-->
+                            <label for=name class="labelpass">Name</label>
+                            <div>
+                            <input type="text" class="inputlog"
+                            required placeholder="John">
+                            </div>
+                            <!--Second name-->
+                            <label for=Sname class="labelpass">Second name</label>
+
+                            <div><input type="text"
+                            required placeholder="Doe"
+                            class="inputlog"></div>
+
+                            <!--Username-->
+                            <form action="index.html" method="post">
+                            <label for="username" class="labelpass">Username</label>
+                            <div>
+                            <input type="text" class="inputlog" 
+                            minlength="3" maxlength="16" required placeholder="username..">
+                            </div>
+                            <!--mail-->
+                            <label for=email
+                            class="labelpass">E-mail</label>
+                            
+                            <div>
+                            <input type="email" id="email" 
+                            required placeholder="mymail@example.co"
+                            class="inputlog">
+                            </div>
+                            <!--phone--> 
+                            
+                            <label for="phone"
+                            class="labelpass">Phone</label>
+                            
+                            
+                            <div>
+                            <input type="tel" id="phone" 
+                            required placeholder="+48-XXX-XXX-XXX" 
+                            pattern="+48-[0-9]{3}[0-9]{3}[0-9]{3}"
+                            class="inputlog">
+                            </div>
+
+                            <!--bday-->
+                            <label for="bday"
+                            class="labelpass">Birthday</label>
+                            <div>
+                            <input type="date" id="bday" 
+                            required
+                            class="inputlog"></div>
+
+                            <!--пол-->
+                            <label for="Gender"
+                            class="labelpass">Gender</label>
+                            <div><select
+                            class="inputlog">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                            </div>
+                            <!--password-->
+                            <label for="password" class="labelpass">Password</label>
+                            <div>
+                            <input type="password" id="password"  class="inputlog" 
+                            minlength="8" maxlength="20" required placeholder="password..">
+                            </div>
+                            <div>
+                                <input type="submit" class ="buttonlog" value="Sign up">
+                            </div>
+                        </div>
+ 
+                    </form>
+ 
+                </div>
+            </div>
+
+
+
+
+        </body>
+
+
+
+
+
+
+</html>
